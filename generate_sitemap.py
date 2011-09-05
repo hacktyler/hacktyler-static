@@ -3,7 +3,7 @@
 import csv
 from xml.sax.saxutils import escape
 
-sitemap = open('sitemap.xml', 'w')
+sitemap = open('assets/sitemap.xml', 'w')
 sitemap.write('<?xml version="1.0" encoding="UTF-8"?>\n')
 sitemap.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
 
